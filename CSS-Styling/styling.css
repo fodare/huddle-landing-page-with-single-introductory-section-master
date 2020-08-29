@@ -1,0 +1,88 @@
+/* Body Area */
+body {
+	background: url("../images/bg-desktop.svg") no-repeat;
+	background-color: #674bb1;
+}
+
+/* Logo area */
+.Logo {
+	margin: 60px auto 70px 60px;
+}
+
+/* Body content */
+.body-img {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	/* margin-left: 10px; */
+}
+
+.body-message {
+	color: #fff;
+	font-family: sans-serif;
+	padding-left: 40px;
+	text-align: left;
+}
+.message-body1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.message-body2 {
+	font-weight: 1.9rem;
+	line-height: 2;
+}
+
+/* Button Area */
+.cta-button {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5;
+	padding-bottom: 5;
+	font-size: 1.5rem;
+	width: 40%;
+}
+
+/* Social Media Icons */
+.social-media {
+	margin-top: 40px;
+	margin-right: 40px;
+	text-align: right;
+}
+.fab {
+	color: #fff;
+	padding-left: 10px;
+}
+
+/* Footer Area */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.attribution a {
+	color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+	.body-message {
+		text-align: center;
+	}
+	.cta-button {
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.social-media {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.fab {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		padding-left: 30px;
+	}
+}
